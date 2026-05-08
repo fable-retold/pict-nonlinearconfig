@@ -11,15 +11,15 @@
     "author": "steven velozo <steven@velozo.com>",
     "license": "MIT",
     "dependencies": {
-        "pict": "^1.0.355",
-        "pict-application": "^1.0.33",
-        "pict-provider": "^1.0.12",
-        "pict-router": "^1.0.6",
-        "pict-view": "^1.0.67"
+        "pict": "^1.0.367",
+        "pict-application": "^1.0.34",
+        "pict-provider": "^1.0.13",
+        "pict-router": "^1.0.10",
+        "pict-view": "^1.0.68"
     },
     "devDependencies": {
-        "pict-docuserve": "^0.1.5",
-        "quackage": "^1.1.0"
+        "pict-docuserve": "^0.1.6",
+        "quackage": "^1.2.3"
     },
     "copyFilesSettings": {
         "whenFileExists": "overwrite"
