@@ -32,7 +32,7 @@ const _ViewConfiguration =
 			cursor: pointer;
 		}
 		.nonlinearconfig-topbar-brand:hover {
-			color: #fff;
+			color: var(--theme-color-background-panel, #fff);
 		}
 		.nonlinearconfig-topbar-nav {
 			display: flex;
@@ -50,7 +50,7 @@ const _ViewConfiguration =
 		}
 		.nonlinearconfig-topbar-nav a:hover {
 			background-color: #34495e;
-			color: #fff;
+			color: var(--theme-color-background-panel, #fff);
 		}
 		.nonlinearconfig-topbar-user {
 			display: flex;
@@ -62,7 +62,7 @@ const _ViewConfiguration =
 			color: #95a5a6;
 		}
 		.nonlinearconfig-topbar-user a {
-			color: #e74c3c;
+			color: var(--theme-color-status-error, #e74c3c);
 			text-decoration: none;
 			cursor: pointer;
 			padding: 0.4em 0.6em;

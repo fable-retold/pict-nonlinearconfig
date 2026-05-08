@@ -18,7 +18,7 @@ const _ViewConfiguration =
 		.nonlinearconfig-about-header {
 			text-align: center;
 			padding-bottom: 1.5em;
-			border-bottom: 1px solid #eee;
+			border-bottom: 1px solid var(--theme-color-border-light, #eee);
 			margin-bottom: 2em;
 		}
 		.nonlinearconfig-about-header h1 {
@@ -39,7 +39,7 @@ const _ViewConfiguration =
 			font-size: 1.3em;
 		}
 		.nonlinearconfig-about p {
-			color: #555;
+			color: var(--theme-color-text-secondary, #555);
 			line-height: 1.7;
 		}
 		.nonlinearconfig-about-tech {
@@ -62,7 +62,7 @@ const _ViewConfiguration =
 		}
 		.nonlinearconfig-about-tech-item span {
 			font-size: 0.85em;
-			color: #666;
+			color: var(--theme-color-text-secondary, #666);
 		}
 	`,
 

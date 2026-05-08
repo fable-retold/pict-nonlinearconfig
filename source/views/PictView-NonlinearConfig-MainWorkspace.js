@@ -18,7 +18,7 @@ const _ViewConfiguration =
 		.nonlinearconfig-workspace-header {
 			margin: 0 0 1.5em 0;
 			padding-bottom: 1em;
-			border-bottom: 1px solid #eee;
+			border-bottom: 1px solid var(--theme-color-border-light, #eee);
 		}
 		.nonlinearconfig-workspace-header h1 {
 			margin: 0 0 0.25em 0;
@@ -38,8 +38,8 @@ const _ViewConfiguration =
 			margin-top: 1.5em;
 		}
 		.nonlinearconfig-card {
-			background: #fff;
-			border: 1px solid #e0e0e0;
+			background: var(--theme-color-background-panel, #fff);
+			border: 1px solid var(--theme-color-border-default, #e0e0e0);
 			border-radius: 6px;
 			padding: 1.5em;
 			transition: box-shadow 0.2s, border-color 0.2s;
@@ -55,7 +55,7 @@ const _ViewConfiguration =
 		}
 		.nonlinearconfig-card p {
 			margin: 0;
-			color: #666;
+			color: var(--theme-color-text-secondary, #666);
 			font-size: 0.9em;
 			line-height: 1.5;
 		}

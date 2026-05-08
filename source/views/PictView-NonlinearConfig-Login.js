@@ -18,8 +18,8 @@ const _ViewConfiguration =
 			background: #f5f7fa;
 		}
 		.nonlinearconfig-login-card {
-			background: #fff;
-			border: 1px solid #e0e0e0;
+			background: var(--theme-color-background-panel, #fff);
+			border: 1px solid var(--theme-color-border-default, #e0e0e0);
 			border-radius: 8px;
 			padding: 2.5em;
 			width: 100%;
@@ -54,7 +54,7 @@ const _ViewConfiguration =
 			width: 100%;
 			padding: 0.6em 0.75em;
 			font-size: 1em;
-			border: 1px solid #ddd;
+			border: 1px solid var(--theme-color-border-default, #ddd);
 			border-radius: 4px;
 			box-sizing: border-box;
 			transition: border-color 0.15s;
@@ -71,7 +71,7 @@ const _ViewConfiguration =
 			margin-top: 1.25em;
 			font-size: 1em;
 			font-weight: 600;
-			color: #fff;
+			color: var(--theme-color-background-panel, #fff);
 			background-color: #2c3e50;
 			border: none;
 			border-radius: 4px;
