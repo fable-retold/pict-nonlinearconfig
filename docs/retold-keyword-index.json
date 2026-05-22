@@ -1,6 +1,7 @@
 {
-	"Generated": "2026-04-10T17:24:35.171Z",
-	"DocumentCount": 0,
+	"Generated": "2026-05-22T05:42:58.726Z",
+	"Mode": "module",
+	"DocumentCount": 1,
 	"LunrIndex": {
 		"version": "2.3.9",
 		"fields": [
@@ -9,11 +10,311 @@
 			"group",
 			"body"
 		],
-		"fieldVectors": [],
-		"invertedIndex": [],
+		"fieldVectors": [
+			[
+				"title/README.md",
+				[
+					0,
+					3.567,
+					1,
+					1.823,
+					2,
+					1.823,
+					3,
+					1.823
+				]
+			],
+			[
+				"module/README.md",
+				[
+					0,
+					1.783,
+					4,
+					1.438
+				]
+			],
+			[
+				"group/README.md",
+				[]
+			],
+			[
+				"body/README.md",
+				[
+					0,
+					0.56,
+					1,
+					0.251,
+					2,
+					0.251,
+					3,
+					0.251,
+					5,
+					0.396,
+					6,
+					0.288,
+					7,
+					0.288,
+					8,
+					0.288,
+					9,
+					0.288,
+					10,
+					0.288,
+					11,
+					0.288,
+					12,
+					0.288,
+					13,
+					0.288,
+					14,
+					0.288,
+					15,
+					0.288,
+					16,
+					0.288,
+					17,
+					0.288
+				]
+			]
+		],
+		"invertedIndex": [
+			[
+				"applic",
+				{
+					"_index": 5,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"base",
+				{
+					"_index": 12,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"build",
+				{
+					"_index": 15,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"built",
+				{
+					"_index": 7,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"configur",
+				{
+					"_index": 2,
+					"title": {
+						"README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"framework",
+				{
+					"_index": 8,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"hash",
+				{
+					"_index": 11,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"instal",
+				{
+					"_index": 14,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"licens",
+				{
+					"_index": 16,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"manag",
+				{
+					"_index": 3,
+					"title": {
+						"README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"mit",
+				{
+					"_index": 17,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"nonlinear",
+				{
+					"_index": 1,
+					"title": {
+						"README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"nonlinearconfig",
+				{
+					"_index": 4,
+					"title": {},
+					"module": {
+						"README.md": {}
+					},
+					"group": {},
+					"body": {}
+				}
+			],
+			[
+				"pict",
+				{
+					"_index": 0,
+					"title": {
+						"README.md": {}
+					},
+					"module": {
+						"README.md": {}
+					},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"provid",
+				{
+					"_index": 10,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"rout",
+				{
+					"_index": 13,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"view",
+				{
+					"_index": 9,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"workflow",
+				{
+					"_index": 6,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			]
+		],
 		"pipeline": [
 			"stemmer"
 		]
 	},
-	"Documents": {}
+	"Documents": {
+		"README.md": {
+			"Title": "Pict Nonlinear Configuration Manager",
+			"Module": "pict-nonlinearconfig",
+			"Group": "",
+			"DocPath": "README.md"
+		}
+	}
 }
