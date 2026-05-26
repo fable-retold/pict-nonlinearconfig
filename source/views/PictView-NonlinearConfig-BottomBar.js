@@ -44,8 +44,8 @@ const _ViewConfiguration =
 <div class="nonlinearconfig-bottombar">
 	<span>Pict Nonlinear Configuration Manager &copy; 2025</span>
 	<div class="nonlinearconfig-bottombar-links">
-		<a href="https://github.com/stevenvelozo/pict" target="_blank">Pict</a>
-		<a href="https://github.com/stevenvelozo/fable" target="_blank">Fable</a>
+		<a href="https://github.com/fable-retold/pict" target="_blank">Pict</a>
+		<a href="https://github.com/fable-retold/fable" target="_blank">Fable</a>
 		<a onclick="{~P~}.PictApplication.navigateTo('/About')">About</a>
 	</div>
 </div>
